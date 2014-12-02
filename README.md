@@ -1,4 +1,4 @@
-typographicss
+typographi.css
 =============
 
 A CSS file with classes helping users apply OpenType font-feature-settings.
@@ -9,7 +9,7 @@ The .ffs class stands for font-feature-setting and is used to enable you to sele
 It is useful for testing or adding custom fallback solutions where desired.
 If that feels like a waste simply remove the .ffs class from the typographi.css file.
 
-## Classes
+### Classes
 
 .liga /* Common ligatures */<br/>
 .dlig /* Discretionary ligatures */<br/>
@@ -36,7 +36,7 @@ If that feels like a waste simply remove the .ffs class from the typographi.css 
 .ss04 /* Stylistic set 1…5 */<br/>
 .ss05 /* Stylistic set 1…5 */<br/>
 
-## Example use case:
+### Example use case:
 
 ```html
 <h1 class="ffs liga">Cactus</h1>
