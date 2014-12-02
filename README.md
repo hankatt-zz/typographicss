@@ -38,7 +38,11 @@ If that feels like a waste simply remove the .ffs class from the typographi.css 
 
 ## Example use case:
 
-<code><h1 class="ffs liga">Cactus</h1></code> will enable common ligatures on the headline.
+```html
+<h1 class="ffs liga">Cactus</h1>
+```
+
+This will enable common ligatures on the headline.
 
 And keep in mind that not all fonts support OpenType features and even if they do, not all OpenType fonts support all of the features.
 It is quite common with support for common ligatures, kerning, tabular numbers and small caps.
