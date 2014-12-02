@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:og="http://ogp.me/ns#" xmlns:fb="http://www.facebook.com/2008/fbml">
+<head>
+	<title>Typographi.css by Henrik Wiberg</title>
+	<meta property="og:site_name" content="Typographi.css – An Open Type font feature settings CSS." />
+	<meta property="og:type" content="article" />
+	<meta property="og:url" content="http://www.henrikwiberg.com/typographicss" />
+	<meta property="og:title" content="Typographi.css"/>
+	<meta property="og:description" content="Typographi.css – An Open Type font feature settings CSS."/>
+	<meta name="description" content="Typographi.css – An Open Type font feature settings CSS.">
+	<meta name="viewport" content="width = device-width, initial-scale = 1.0, maximum-scale = 1.0" />
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+	<script type="text/javascript" src="//use.typekit.net/zvj6wru.js"></script>
+	<script src="//use.typekit.net/dbq2uzu.js"></script>
+	<script>try{Typekit.load();}catch(e){}</script>
+	<script src="js/main.js"></script>
+	<link href='css/typographi.css' rel='stylesheet'/>
+	<link href='css/main.css' rel='stylesheet'/>
+
+</head>
+<body>
+<div class="content-container title">
+	<h1 class="ffs salt tk-proxima-nova">typographi<em>.css</em></h1>
+	<h2 class="ffs kern tk-proxima-nova">A CSS file with most OpenType font feature settings.</h2>
+</div>
+<div class="experiment-container">
+	<h3 class="demo-title ffs smcp">Common ligatures</h3>
+	<h1 class="demo ffs liga tk-adobe-text-pro">A<em>ff</em>ectionate flora.</h1>
+	<code>font-feature-settings:"liga" 1;</code>
+	<button class="demo-toggle"></button>
+</div>
+<div class="experiment-container">
+	<h3 class="demo-title ffs smcp">Tabular numbers</h3>
+	<h1 class="demo ffs tnum tk-proxima-nova">1973-11-19</h1>
+	<code>font-feature-settings:"tnum" 1;</code>
+	<button class="demo-toggle"></button>
+</div>
+<div class="experiment-container">
+	<h3 class="demo-title ffs smcp">Kerning</h3>
+	<h1 class="demo ffs kern tk-adobe-text-pro">Fruits sway.</h1>
+	<code>font-feature-settings:"kern" 1;</code>
+	<button class="demo-toggle"></button>
+</div>
+<div class="experiment-container">
+	<h3 class="demo-title ffs smcp">Small caps</h3>
+	<h1 class="demo ffs tk-proxima-nova">You know <em class="ffs smcp">html?</em></h1>
+	<code>font-feature-settings:"smcp" 1;</code>
+	<button class="demo-toggle"></button>
+</div>
+<div class="experiment-container">
+	<h3 class="demo-title ffs smcp">Discretionary ligatures</h3>
+	<h1 class="demo ffs dlig tk-adobe-text-pro">Consistency.</h1>
+	<code>font-feature-settings:"dlig" 1;</code>
+	<button class="demo-toggle"></button>
+</div>
+<div class="experiment-container">
+	<h3 class="demo-title ffs smcp">Fractions</h3>
+	<h1 class="demo ffs frac tk-adobe-text-pro">1/3 of what?</h1>
+	<code>font-feature-settings:"frac" 1;</code>
+	<button class="demo-toggle"></button>
+</div>
+<div class="experiment-container">
+	<h3 class="demo-title ffs smcp">Stylistic character alternatives</h3>
+	<h1 class="demo ffs salt tk-proxima-nova">Could be apathy.</h1>
+	<code>font-feature-settings:"salt" 1;</code>
+	<button class="demo-toggle"></button>
+</div>
+<div class="experiment-container">
+	<h3 class="demo-title ffs smcp">Old style numbers</h3>
+	<h1 class="demo ffs onum tk-adobe-text-pro">When in 1983?</h1>
+	<code>font-feature-settings:"onum" 1;</code>
+	<button class="demo-toggle"></button>
+</div>
+<div class="experiment-container">
+	<h3 class="demo-title ffs smcp">Slashed zero</h3>
+	<h1 class="demo ffs zero tk-proxima-nova">1234567890.</h1>
+	<code>font-feature-settings:"zero" 1;</code>
+	<button class="demo-toggle"></button>
+</div>
+<div class="experiment-container">
+	<h3 class="demo-title ffs smcp">Proportional numbers</h3>
+	<h1 class="demo ffs pnum tk-adobe-text-pro">in 1842 or 1912?</h1>
+	<code>font-feature-settings:"pnum" 1;</code>
+	<button class="demo-toggle"></button>
+</div>
+<div class="experiment-container">
+	<h3 class="demo-title ffs smcp">Stylistic set 1</h3>
+	<h1 class="demo ffs ss01 tk-proxima-nova">Is it a long time?</h1>
+	<code>font-feature-settings:"ss01" 1;</code>
+	<button class="demo-toggle"></button>
+</div>
+<div class="experiment-container">
+	<h3 class="demo-title ffs smcp">Stylistic set 2</h3>
+	<h1 class="demo ffs ss02 tk-proxima-nova">Is it a long time?</h1>
+	<code>font-feature-settings:"ss02" 1;</code>
+	<button class="demo-toggle"></button>
+</div>
+<div class="content-container text">
+	<h1 class="ffs salt">What is this?</h1>
+	<h2>Typographi.css is a CSS-file containing classes that makes it easier to utilize OpenType font-feature-settings. Such as kerning, ligatures or numeric alternatives.</h2>
+	<p><em>Keep in mind!</em> When you test these features make sure that you are using a font with OpenType features. Also know that not all character combinations have ligatures, and OpenType fonts will not necessarily share all the features.</p>
+	<p>This site uses Proxima Nova and Adobe Text Pro. Both of these come with quite a wide array of OpenType options.</p> 
+</div>
+<div class="content-container splash">
+	<h1 class="ffs salt">Download and try</h1>
+	<h2>The CSS file is hosted in Github to enable anyone with interest in web typography to contribute. This will help it remain useful and in sync with time.</h2>
+	<a class="block" href="#!"><h3 class="download button ffs smcp">Get it here</h3></a>
+	<p>Created by <a href="http://www.henrikwiberg.com">Henrik Wiberg</a><p>
+</div>
+</body>
+</html>
